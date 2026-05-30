@@ -1,0 +1,25 @@
+.bottomBarContainer {
+  position: relative;
+  text-align: center;
+  padding: 12px 0 10px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.innerLine {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  right: 30px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.text {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.2px;
+}

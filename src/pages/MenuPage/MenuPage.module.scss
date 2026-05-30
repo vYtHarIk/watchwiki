@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+
+.menuWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 4px;
+}
+
+.menuBtn {
+  background: $card-bg;
+  color: #1e3a8a;
+  border: none;
+  border-radius: 20px;
+  padding: 11px 0;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 12px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:active {
+    transform: scale(0.99);
+    background-color: #f1f5f9;
+  }
+}

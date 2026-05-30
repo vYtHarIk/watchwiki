@@ -1,0 +1,23 @@
+@import "../../../styles/variables";
+
+.phone {
+  width: 350px;
+  height: 350px;
+  background: $bg-gradient-main;
+  border-radius: $radius-phone;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+}
+
+.content {
+  flex: 1;
+  padding: 0 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}

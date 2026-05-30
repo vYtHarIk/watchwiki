@@ -1,0 +1,37 @@
+@import "./styles/variables";
+
+.appWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.aboutPage {
+  background: white;
+  border-radius: $radius-main;
+  padding: 21px 20px;
+  color: $text-dark;
+  text-align: center;
+  position: relative;
+
+  h2 { font-size: 24px; color: #334F90; margin-bottom: 10px; }
+  p { margin: 8px 0; font-size: 14px; color: #334F90; font-weight: 650; }
+}
+
+.closeAbout {
+  position: absolute;
+  top: 15px; right: 15px;
+  background: none; border: none; font-size: 30px; cursor: pointer;
+  color: $glow-cyan;
+}
+
+.blueText { color: #334F90; font-weight: bold !important; font-size: 12px !important; }
+
+.warning {
+  color: red;
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1.4;
+}
